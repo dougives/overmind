@@ -1,0 +1,37 @@
+race played
+mmr
+nationality
+game region
+game clock time
+is ladder or event
+
+first building time
+first unit times
+first kill
+first loss
+epm
+- max, vs current supplies, vs available supply, vs opponent
+    worker supply made
+    army supply made
+    worker supply killed
+    army supply killed
+    worker supply lost
+    army supply lost
+worker supply vs army supply ratio, vs opponent
+time supply blocked
+supply maxed?
+spells cast
+tech tiers, vs opponent
+- max and vs collection rate (mins and vespane), vs opponent
+    supply
+    bank
+    collection rate
+    resources in progress
+    resources used
+    resources killed
+    tech resources
+
+racial win/loss
+map win/loss, by race
+game length
+

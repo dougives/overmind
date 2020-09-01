@@ -1,0 +1,807 @@
+00.00	 Player 1 - frank (Protoss) - Stats Update
+00.00	 Player 2 - NITRØ (Terran) - Stats Update
+00.10	 Player 1 - frank (Protoss) - Stats Update
+00.10	 Player 2 - NITRØ (Terran) - Stats Update
+00.17	 Player 2 - NITRØ (Terran) - Unit born SCV [3880001]
+00.17	 Player 1 - frank (Protoss) - Unit born Probe [38C0001]
+00.20	 Player 1 - frank (Protoss) - Stats Update
+00.20	 Player 2 - NITRØ (Terran) - Stats Update
+00.24	 Player 1 - frank (Protoss) - Unit initiated Pylon [3900001]
+00.25	 Player 2 - NITRØ (Terran) - Unit initiated SupplyDepotLowered [3940001]
+00.30	 Player 1 - frank (Protoss) - Stats Update
+00.30	 Player 2 - NITRØ (Terran) - Stats Update
+00.34	 Player 2 - NITRØ (Terran) - Unit born SCV [3980001]
+00.34	 Player 1 - frank (Protoss) - Unit born Probe [39C0001]
+00.40	 Player 1 - frank (Protoss) - Stats Update
+00.40	 Player 2 - NITRØ (Terran) - Stats Update
+00.43	 Player 2 - NITRØ (Terran) - Unit initiated Refinery [3A00001]
+00.49	 Player 1 - frank (Protoss) - Unit Pylon [3900001] done
+00.50	 Player 1 - frank (Protoss) - Stats Update
+00.50	 Player 2 - NITRØ (Terran) - Stats Update
+00.50	 Player 1 - frank (Protoss) - Unit born Probe [3A40001]
+00.51	 Player 2 - NITRØ (Terran) - Unit born SCV [3A80001]
+00.55	 Player 1 - frank (Protoss) - Unit initiated WarpGate [3AC0001]
+00.55	 Player 2 - NITRØ (Terran) - Unit SupplyDepotLowered [3940001] done
+01.00	 Player 1 - frank (Protoss) - Stats Update
+01.00	 Player 2 - NITRØ (Terran) - Stats Update
+01.01	 Player 1 - frank (Protoss) - Unit born Probe [3B00001]
+01.04	 Player 2 - NITRØ (Terran) - Unit initiated Barracks [3B40001]
+01.08	 Player 1 - frank (Protoss) - Unit initiated Assimilator [3B80001]
+01.10	 Player 1 - frank (Protoss) - Stats Update
+01.10	 Player 2 - NITRØ (Terran) - Stats Update
+01.12	 Player 2 - NITRØ (Terran) - Unit born SCV [3BC0001]
+01.12	 Player 1 - frank (Protoss) - Unit born Probe [3C00001]
+01.13	 Player 2 - NITRØ (Terran) - Unit Refinery [3A00001] done
+01.18	 Player 2 - NITRØ (Terran) - Unit SupplyDepotLowered [3940001] type changed to SupplyDepotLowered
+01.20	 Player 1 - frank (Protoss) - Stats Update
+01.20	 Player 2 - NITRØ (Terran) - Stats Update
+01.28	 Player 1 - frank (Protoss) - Unit born Probe [3C40001]
+01.29	 Player 2 - NITRØ (Terran) - Unit born SCV [3C80001]
+01.30	 Player 1 - frank (Protoss) - Stats Update
+01.30	 Player 2 - NITRØ (Terran) - Stats Update
+01.38	 Player 1 - frank (Protoss) - Unit Assimilator [3B80001] done
+01.40	 Player 1 - frank (Protoss) - Stats Update
+01.40	 Player 2 - NITRØ (Terran) - Stats Update
+01.45	 Player 1 - frank (Protoss) - Unit born Probe [3CC0001]
+01.46	 Player 2 - NITRØ (Terran) - Unit born SCV [3D00001]
+01.50	 Player 1 - frank (Protoss) - Stats Update
+01.50	 Player 2 - NITRØ (Terran) - Stats Update
+01.57	 Player 1 - frank (Protoss) - Unit initiated Nexus [3D40001]
+01.57	 Player 1 - frank (Protoss) - SprayProtoss upgrade completed
+02.00	 Player 1 - frank (Protoss) - Stats Update
+02.00	 Player 2 - NITRØ (Terran) - Stats Update
+02.00	 Player 1 - frank (Protoss) - Unit WarpGate [3AC0001] done
+02.02	 Player 1 - frank (Protoss) - Unit born Probe [3D80001]
+02.03	 Player 2 - NITRØ (Terran) - Unit born SCV [3DC0001]
+02.09	 Player 2 - NITRØ (Terran) - Unit Barracks [3B40001] done
+02.10	 Player 1 - frank (Protoss) - Stats Update
+02.10	 Player 2 - NITRØ (Terran) - Stats Update
+02.15	 Player 1 - frank (Protoss) - Unit initiated CyberneticsCore [3E00001]
+02.20	 Player 1 - frank (Protoss) - Stats Update
+02.20	 Player 2 - NITRØ (Terran) - Stats Update
+02.23	 Player 1 - frank (Protoss) - Unit initiated Assimilator [3E40001]
+02.30	 Player 1 - frank (Protoss) - Stats Update
+02.30	 Player 2 - NITRØ (Terran) - Stats Update
+02.30	 Player 2 - NITRØ (Terran) - Unit initiated OrbitalCommand [3E80001]
+02.30	 Player 2 - NITRØ (Terran) - SprayTerran upgrade completed
+02.31	 Player 1 - frank (Protoss) - Unit born Probe [3EC0001]
+02.36	 Player 1 - frank (Protoss) - Unit initiated Pylon [3F00001]
+02.40	 Player 1 - frank (Protoss) - Stats Update
+02.40	 Player 2 - NITRØ (Terran) - Stats Update
+02.41	 Player 2 - NITRØ (Terran) - Unit initiated Factory [3F40001]
+02.48	 Player 1 - frank (Protoss) - Unit born Probe [3F80001]
+02.48	 Player 2 - NITRØ (Terran) - Unit OrbitalCommand [3540001] type changed to OrbitalCommand
+02.50	 Player 1 - frank (Protoss) - Stats Update
+02.50	 Player 2 - NITRØ (Terran) - Stats Update
+02.50	 Player 2 - NITRØ (Terran) - Unit born MULE [3FC0001]
+02.53	 Player 1 - frank (Protoss) - Unit Assimilator [3E40001] done
+02.55	 Player 2 - NITRØ (Terran) - Unit born Reaper [4000001]
+02.58	 Player 2 - NITRØ (Terran) - Unit initiated SupplyDepotLowered [4040001]
+02.59	 Player 2 - NITRØ (Terran) - Unit initiated StarportReactor [4080001]
+03.00	 Player 1 - frank (Protoss) - Stats Update
+03.00	 Player 2 - NITRØ (Terran) - Stats Update
+03.01	 Player 1 - frank (Protoss) - Unit Pylon [3F00001] done
+03.05	 Player 1 - frank (Protoss) - Unit born Probe [40C0001]
+03.05	 Player 1 - frank (Protoss) - Unit CyberneticsCore [3E00001] done
+03.10	 Player 1 - frank (Protoss) - Stats Update
+03.10	 Player 2 - NITRØ (Terran) - Stats Update
+03.20	 Player 1 - frank (Protoss) - Stats Update
+03.20	 Player 2 - NITRØ (Terran) - Stats Update
+03.24	 Player 1 - frank (Protoss) - Unit born Probe [4100001]
+03.26	 Player 2 - NITRØ (Terran) - Unit born SCV [4140001]
+03.28	 Player 2 - NITRØ (Terran) - Unit SupplyDepotLowered [4040001] done
+03.30	 Player 1 - frank (Protoss) - Stats Update
+03.30	 Player 2 - NITRØ (Terran) - Stats Update
+03.30	 Unit positions update
+03.37	 Player 1 - frank (Protoss) - Unit Nexus [3D40001] done
+03.37	 Player 1 - frank (Protoss) - SprayProtoss upgrade completed
+03.38	 Player 2 - NITRØ (Terran) - Unit initiated Refinery [4180001]
+03.40	 Player 1 - frank (Protoss) - Stats Update
+03.40	 Player 2 - NITRØ (Terran) - Stats Update
+03.41	 Player 2 - NITRØ (Terran) - Unit SupplyDepotLowered [4040001] type changed to SupplyDepotLowered
+03.41	 Player 1 - frank (Protoss) - Unit born Probe [41C0001]
+03.41	 Player 2 - NITRØ (Terran) - Unit Factory [3F40001] done
+03.43	 Player 2 - NITRØ (Terran) - Unit born SCV [4200001]
+03.43	 Player 1 - frank (Protoss) - Unit born Stalker [4240001]
+03.45	 Unit positions update
+03.46	 Player 1 - frank (Protoss) - Unit initiated TwilightCouncil [4280001]
+03.49	 Player 2 - NITRØ (Terran) - Unit StarportReactor [4080001] done
+03.50	 Player 1 - frank (Protoss) - Stats Update
+03.50	 Player 2 - NITRØ (Terran) - Stats Update
+03.51	 Player 2 - NITRØ (Terran) - Unit Factory [3F40001] type changed to FactoryFlying
+03.52	 Player 2 - NITRØ (Terran) - Unit Barracks [3B40001] type changed to BarracksFlying
+03.52	 Player 2 - NITRØ (Terran) - Unit StarportReactor [4080001] type changed to Reactor
+03.57	 Player 2 - NITRØ (Terran) - Unit initiated Starport [42C0001]
+03.58	 Player 1 - frank (Protoss) - Unit born Probe [4300001]
+04.00	 Player 1 - frank (Protoss) - Stats Update
+04.00	 Player 2 - NITRØ (Terran) - Stats Update
+04.01	 Player 2 - NITRØ (Terran) - Unit Factory [3F40001] type changed to Factory
+04.01	 Player 2 - NITRØ (Terran) - Unit StarportReactor [4080001] type changed to FactoryReactor
+04.01	 Player 2 - NITRØ (Terran) - Unit Barracks [3B40001] type changed to Barracks
+04.07	 Player 2 - NITRØ (Terran) - Unit initiated FactoryTechLab [4340001]
+04.08	 Player 2 - NITRØ (Terran) - Unit Refinery [4180001] done
+04.10	 Player 1 - frank (Protoss) - Stats Update
+04.10	 Player 2 - NITRØ (Terran) - Stats Update
+04.10	 Player 1 - frank (Protoss) - Unit born Probe [4380001]
+04.15	 Player 1 - frank (Protoss) - Unit born Probe [43C0002]
+04.16	 Player 2 - NITRØ (Terran) - Unit born KD8Charge [4400001]
+04.18	 Player 2 - NITRØ (Terran) - Unit died KD8Charge [4400001].
+04.20	 Player 1 - frank (Protoss) - Stats Update
+04.20	 Player 2 - NITRØ (Terran) - Stats Update
+04.20	 Player 2 - NITRØ (Terran) - Unit born SCV [4400002]
+04.22	 Player 1 - frank (Protoss) - Unit born Stalker [4440003]
+04.24	 Player 2 - NITRØ (Terran) - Unit died MULE [3FC0001].
+04.27	 Player 1 - frank (Protoss) - Unit born Probe [3FC0003]
+04.30	 Player 1 - frank (Protoss) - Stats Update
+04.30	 Player 2 - NITRØ (Terran) - Stats Update
+04.30	 Unit positions update
+04.30	 Player 2 - NITRØ (Terran) - Unit born MULE [4480004]
+04.31	 Player 1 - frank (Protoss) - Unit born Probe [44C0002]
+04.32	 Player 2 - NITRØ (Terran) - Unit FactoryTechLab [4340001] done
+04.35	 Player 2 - NITRØ (Terran) - Unit born BattleHellion [4500001]
+04.35	 Player 2 - NITRØ (Terran) - Unit born BattleHellion [4540001]
+04.36	 Player 1 - frank (Protoss) - Unit TwilightCouncil [4280001] done
+04.40	 Player 1 - frank (Protoss) - Stats Update
+04.40	 Player 2 - NITRØ (Terran) - Stats Update
+04.40	 Player 2 - NITRØ (Terran) - Unit Barracks [3B40001] type changed to BarracksFlying
+04.40	 Player 2 - NITRØ (Terran) - Unit FactoryTechLab [4340001] type changed to TechLab
+04.44	 Player 1 - frank (Protoss) - Unit born Probe [4580001]
+04.45	 Unit positions update
+04.45	 Player 1 - frank (Protoss) - Unit initiated WarpGate [45C0001]
+04.46	 Player 2 - NITRØ (Terran) - Unit born SCV [4600001]
+04.47	 Player 2 - NITRØ (Terran) - Unit Starport [42C0001] done
+04.48	 Player 1 - frank (Protoss) - Unit born Probe [4640001]
+04.49	 Player 1 - frank (Protoss) - Unit initiated WarpGate [4680001]
+04.49	 Player 2 - NITRØ (Terran) - Unit Barracks [3B40001] type changed to Barracks
+04.49	 Player 2 - NITRØ (Terran) - Unit initiated BarracksTechLab [46C0001]
+04.50	 Player 1 - frank (Protoss) - Stats Update
+04.50	 Player 2 - NITRØ (Terran) - Stats Update
+04.53	 Player 2 - NITRØ (Terran) - Unit initiated SupplyDepotLowered [4700001]
+05.00	 Player 1 - frank (Protoss) - Stats Update
+05.00	 Player 2 - NITRØ (Terran) - Stats Update
+05.01	 Player 1 - frank (Protoss) - Unit born Probe [4740001]
+05.05	 Player 2 - NITRØ (Terran) - Unit initiated EngineeringBay [4780001]
+05.05	 Player 1 - frank (Protoss) - Unit born Probe [47C0001]
+05.06	 Player 1 - frank (Protoss) - Unit initiated Pylon [4800001]
+05.07	 Player 2 - NITRØ (Terran) - Unit born SCV [4840001]
+05.08	 Player 2 - NITRØ (Terran) - Unit born BattleHellion [4880001]
+05.10	 Player 1 - frank (Protoss) - Stats Update
+05.10	 Player 2 - NITRØ (Terran) - Stats Update
+05.14	 Player 2 - NITRØ (Terran) - Unit BarracksTechLab [46C0001] done
+05.17	 Player 1 - frank (Protoss) - Unit born Probe [48C0001]
+05.19	 Player 1 - frank (Protoss) - Unit initiated Assimilator [4900001]
+05.20	 Player 1 - frank (Protoss) - Stats Update
+05.20	 Player 2 - NITRØ (Terran) - Stats Update
+05.22	 Player 1 - frank (Protoss) - Unit born Probe [4940001]
+05.23	 Player 2 - NITRØ (Terran) - Unit SupplyDepotLowered [4700001] done
+05.24	 Player 2 - NITRØ (Terran) - Unit OrbitalCommand [3E80001] done
+05.24	 Player 2 - NITRØ (Terran) - SprayTerran upgrade completed
+05.25	 Player 1 - frank (Protoss) - Unit initiated RoboticsFacility [4980001]
+05.29	 Player 2 - NITRØ (Terran) - Unit SupplyDepotLowered [4700001] type changed to SupplyDepotLowered
+05.29	 Player 1 - frank (Protoss) - WarpGateResearch upgrade completed
+05.30	 Player 1 - frank (Protoss) - Stats Update
+05.30	 Player 2 - NITRØ (Terran) - Stats Update
+05.31	 Player 1 - frank (Protoss) - Unit Pylon [4800001] done
+05.34	 Player 1 - frank (Protoss) - Unit born Probe [49C0001]
+05.35	 Player 2 - NITRØ (Terran) - Unit initiated Refinery [4A00001]
+05.37	 Player 1 - frank (Protoss) - Unit born Stalker [4A40001]
+05.38	 Player 1 - frank (Protoss) - Unit initiated Pylon [4A80001]
+05.39	 Player 1 - frank (Protoss) - Unit born Probe [4AC0001]
+05.40	 Player 1 - frank (Protoss) - Stats Update
+05.40	 Player 2 - NITRØ (Terran) - Stats Update
+05.40	 Player 2 - NITRØ (Terran) - Unit EngineeringBay [4780001] done
+05.40	 Player 2 - NITRØ (Terran) - Unit born SCV [4B00001]
+05.48	 Player 1 - frank (Protoss) - Unit WarpGate [3AC0001] type changed to WarpGate
+05.49	 Player 1 - frank (Protoss) - Unit Assimilator [4900001] done
+05.49	 Player 2 - NITRØ (Terran) - Unit born MULE [4B40001]
+05.50	 Player 1 - frank (Protoss) - Stats Update
+05.50	 Player 2 - NITRØ (Terran) - Stats Update
+05.50	 Player 1 - frank (Protoss) - Unit WarpGate [45C0001] done
+05.51	 Player 1 - frank (Protoss) - Unit born Probe [4B80001]
+05.53	 Player 2 - NITRØ (Terran) - Unit born BattleHellion [4BC0001]
+05.54	 Player 1 - frank (Protoss) - Unit WarpGate [4680001] done
+05.55	 Player 2 - NITRØ (Terran) - Unit initiated Armory [4C00001]
+05.55	 Player 1 - frank (Protoss) - Unit initiated Stalker [4C40001]
+05.56	 Player 1 - frank (Protoss) - Unit born Probe [4C80001]
+06.00	 Player 1 - frank (Protoss) - Stats Update
+06.00	 Player 2 - NITRØ (Terran) - Stats Update
+06.00	 Player 2 - NITRØ (Terran) - Unit born Marine [4CC0001]
+06.00	 Player 1 - frank (Protoss) - Unit WarpGate [45C0001] type changed to WarpGate
+06.00	 Player 1 - frank (Protoss) - Unit Stalker [4C40001] done
+06.01	 Player 1 - frank (Protoss) - Unit initiated Stalker [4D00001]
+06.01	 Player 2 - NITRØ (Terran) - Unit Factory [3F40001] type changed to FactoryFlying
+06.01	 Player 2 - NITRØ (Terran) - Unit StarportReactor [4080001] type changed to Reactor
+06.03	 Player 2 - NITRØ (Terran) - Unit born SCV [4D40001]
+06.03	 Player 1 - frank (Protoss) - Unit Pylon [4A80001] done
+06.04	 Player 1 - frank (Protoss) - Unit WarpGate [4680001] type changed to WarpGate
+06.04	 Player 2 - NITRØ (Terran) - Unit died MULE [4480004].
+06.05	 Player 2 - NITRØ (Terran) - Unit born Medivac [4480005]
+06.05	 Player 2 - NITRØ (Terran) - Unit Refinery [4A00001] done
+06.05	 Player 1 - frank (Protoss) - Unit initiated Stalker [4D80001]
+06.05	 Player 2 - NITRØ (Terran) - Unit OrbitalCommand [3E80001] type changed to OrbitalCommand
+06.06	 Player 1 - frank (Protoss) - Unit Stalker [4D00001] done
+06.08	 Player 1 - frank (Protoss) - Unit born Probe [4DC0001]
+06.09	 Player 2 - NITRØ (Terran) - Unit born MULE [4E00001]
+06.10	 Player 1 - frank (Protoss) - Stats Update
+06.10	 Player 2 - NITRØ (Terran) - Stats Update
+06.10	 Player 2 - NITRØ (Terran) - Unit Factory [3F40001] type changed to Factory
+06.10	 Player 2 - NITRØ (Terran) - Unit FactoryTechLab [4340001] type changed to FactoryTechLab
+06.10	 Player 1 - frank (Protoss) - Unit Stalker [4D80001] done
+06.11	 Player 2 - NITRØ (Terran) - Unit Starport [42C0001] type changed to StarportFlying
+06.13	 Player 1 - frank (Protoss) - Unit born Probe [4E40001]
+06.20	 Player 1 - frank (Protoss) - Stats Update
+06.20	 Player 2 - NITRØ (Terran) - Stats Update
+06.20	 Player 2 - NITRØ (Terran) - Unit born SCV [4E80001]
+06.23	 Player 2 - NITRØ (Terran) - Unit Starport [42C0001] type changed to Starport
+06.23	 Player 2 - NITRØ (Terran) - Unit StarportReactor [4080001] type changed to StarportReactor
+06.25	 Player 2 - NITRØ (Terran) - Unit born SCV [4EC0001]
+06.27	 Player 1 - frank (Protoss) - Unit born Probe [4F00001]
+06.29	 Player 2 - NITRØ (Terran) - Unit born Marine [4F40001]
+06.30	 Player 1 - frank (Protoss) - Stats Update
+06.30	 Player 2 - NITRØ (Terran) - Stats Update
+06.30	 Player 1 - frank (Protoss) - Unit RoboticsFacility [4980001] done
+06.30	 Player 1 - frank (Protoss) - Unit born Probe [4F80001]
+06.30	 Player 1 - frank (Protoss) - Unit initiated Stalker [4FC0001]
+06.31	 Player 1 - frank (Protoss) - Unit initiated Pylon [5000001]
+06.33	 Player 2 - NITRØ (Terran) - Unit initiated Refinery [5040001]
+06.34	 Player 1 - frank (Protoss) - Unit initiated Stalker [5080001]
+06.35	 Player 1 - frank (Protoss) - Unit Stalker [4FC0001] done
+06.37	 Player 2 - NITRØ (Terran) - Unit born SCV [50C0001]
+06.38	 Player 1 - frank (Protoss) - Unit initiated Stalker [5100001]
+06.39	 Player 1 - frank (Protoss) - Unit Stalker [5080001] done
+06.39	 Player 2 - NITRØ (Terran) - Unit initiated SupplyDepot [5140001]
+06.40	 Player 1 - frank (Protoss) - Stats Update
+06.40	 Player 2 - NITRØ (Terran) - Stats Update
+06.42	 Player 2 - NITRØ (Terran) - Unit born SCV [5180001]
+06.43	 Player 1 - frank (Protoss) - Unit Stalker [5100001] done
+06.45	 Player 1 - frank (Protoss) - BlinkTech upgrade completed
+06.49	 Player 2 - NITRØ (Terran) - Unit initiated SupplyDepotLowered [51C0001]
+06.50	 Player 1 - frank (Protoss) - Stats Update
+06.50	 Player 2 - NITRØ (Terran) - Stats Update
+06.54	 Player 2 - NITRØ (Terran) - Unit born SCV [5200001]
+06.56	 Player 1 - frank (Protoss) - Unit Pylon [5000001] done
+06.56	 Player 1 - frank (Protoss) - Unit initiated Nexus [5240001]
+06.56	 Player 1 - frank (Protoss) - SprayProtoss upgrade completed
+06.59	 Player 2 - NITRØ (Terran) - Unit born SCV [5280001]
+07.00	 Player 1 - frank (Protoss) - Stats Update
+07.00	 Player 2 - NITRØ (Terran) - Stats Update
+07.00	 Player 2 - NITRØ (Terran) - Unit Armory [4C00001] done
+07.03	 Player 2 - NITRØ (Terran) - Unit Refinery [5040001] done
+07.05	 Player 2 - NITRØ (Terran) - Unit born SiegeTankSieged [52C0001]
+07.09	            None - Unit died PurifierMineralField750 [840001].
+07.09	 Player 1 - frank (Protoss) - Unit died Probe [48C0001].
+07.09	 Player 1 - frank (Protoss) - Unit died Probe [4B80001].
+07.09	 Player 1 - frank (Protoss) - Unit died Probe [3A40001].
+07.09	 Player 2 - NITRØ (Terran) - Unit born Marine [3A40002]
+07.09	 Player 2 - NITRØ (Terran) - Unit SupplyDepot [5140001] done
+07.10	 Player 1 - frank (Protoss) - Stats Update
+07.10	 Player 2 - NITRØ (Terran) - Stats Update
+07.14	 Player 1 - frank (Protoss) - Unit initiated Stalker [4B80003]
+07.14	 Player 1 - frank (Protoss) - Unit initiated Stalker [840002]
+07.15	 Unit positions update
+07.19	 Player 1 - frank (Protoss) - Unit Stalker [4B80003] done
+07.19	 Player 2 - NITRØ (Terran) - Unit SupplyDepotLowered [51C0001] done
+07.19	 Player 1 - frank (Protoss) - Unit Stalker [840002] done
+07.20	 Player 1 - frank (Protoss) - Stats Update
+07.20	 Player 2 - NITRØ (Terran) - Stats Update
+07.20	 Player 2 - NITRØ (Terran) - Unit SiegeTankSieged [52C0001] type changed to SiegeTankSieged
+07.21	 Player 2 - NITRØ (Terran) - Unit died Reaper [4000001].
+07.22	 Player 2 - NITRØ (Terran) - Unit died SCV [4E80001].
+07.23	 Player 2 - NITRØ (Terran) - Unit died MULE [4B40001].
+07.26	 Player 1 - frank (Protoss) - Unit born ObserverSiegeMode [48C000A]
+07.26	 Player 2 - NITRØ (Terran) - Unit died SiegeTankSieged [52C0001].
+07.29	 Player 2 - NITRØ (Terran) - Unit died Marine [4F40001].
+07.30	 Player 1 - frank (Protoss) - Stats Update
+07.30	 Player 2 - NITRØ (Terran) - Stats Update
+07.30	 Unit positions update
+07.30	 Player 2 - NITRØ (Terran) - Unit died Marine [4CC0001].
+07.32	 Player 2 - NITRØ (Terran) - Unit OrbitalCommand [3E80001] type changed to OrbitalCommandFlying
+07.34	 Player 2 - NITRØ (Terran) - Unit born SCV [4B40007]
+07.34	 Player 2 - NITRØ (Terran) - Unit died SCV [50C0001].
+07.34	 Player 2 - NITRØ (Terran) - Unit died SCV [3800001].
+07.36	 Player 2 - NITRØ (Terran) - Unit died SCV [5280001].
+07.38	 Player 2 - NITRØ (Terran) - Unit died SCV [4EC0001].
+07.38	 Player 2 - NITRØ (Terran) - Unit died SCV [4D40001].
+07.38	 Player 2 - NITRØ (Terran) - Stimpack upgrade completed
+07.40	 Player 1 - frank (Protoss) - Stats Update
+07.40	 Player 2 - NITRØ (Terran) - Stats Update
+07.41	 Player 2 - NITRØ (Terran) - Unit born Marine [3800005]
+07.42	 Player 2 - NITRØ (Terran) - Unit died SCV [5180001].
+07.42	 Player 2 - NITRØ (Terran) - Unit died Marine [3A40002].
+07.43	 Player 2 - NITRØ (Terran) - Unit died MULE [4E00001].
+07.45	 Unit positions update
+07.46	 Player 2 - NITRØ (Terran) - Unit SupplyDepotLowered [4040001] type changed to SupplyDepot
+07.46	 Player 2 - NITRØ (Terran) - Unit SupplyDepotLowered [3940001] type changed to SupplyDepot
+07.47	 Player 2 - NITRØ (Terran) - Unit born Liberator [50C0007]
+07.50	 Player 1 - frank (Protoss) - Stats Update
+07.50	 Player 2 - NITRØ (Terran) - Stats Update
+07.51	 Player 2 - NITRØ (Terran) - Unit died Liberator [50C0007].
+07.59	 Player 2 - NITRØ (Terran) - Unit OrbitalCommand [3E80001] type changed to OrbitalCommand
+08.00	 Player 1 - frank (Protoss) - Stats Update
+08.00	 Player 2 - NITRØ (Terran) - Stats Update
+08.00	 Unit positions update
+08.00	 Player 1 - frank (Protoss) - Unit born Probe [4E0000B]
+08.00	 Player 1 - frank (Protoss) - Unit born Probe [4D40003]
+08.00	 Player 2 - NITRØ (Terran) - Unit died Refinery [4A00001].
+08.01	 Player 2 - NITRØ (Terran) - Unit born SiegeTankSieged [400000D]
+08.05	 Player 2 - NITRØ (Terran) - Unit SiegeTankSieged [400000D] type changed to SiegeTankSieged
+08.06	 Player 2 - NITRØ (Terran) - Unit born Marine [518000E]
+08.06	 Player 2 - NITRØ (Terran) - Unit died Refinery [5040001].
+08.07	 Player 2 - NITRØ (Terran) - Unit BattleHellion [4880001] type changed to HellionTank
+08.07	 Player 2 - NITRØ (Terran) - Unit BattleHellion [4500001] type changed to HellionTank
+08.07	 Player 2 - NITRØ (Terran) - Unit BattleHellion [4BC0001] type changed to HellionTank
+08.09	 Player 2 - NITRØ (Terran) - Unit SupplyDepotLowered [4040001] type changed to SupplyDepotLowered
+08.10	 Player 1 - frank (Protoss) - Stats Update
+08.10	 Player 2 - NITRØ (Terran) - Stats Update
+08.10	 Player 1 - frank (Protoss) - Unit initiated Forge [4E80016]
+08.12	 Player 1 - frank (Protoss) - Unit initiated Forge [4F40016]
+08.15	 Unit positions update
+08.15	 Player 2 - NITRØ (Terran) - Unit SiegeTankSieged [400000D] type changed to SiegeTank
+08.15	 Player 2 - NITRØ (Terran) - Unit SupplyDepotLowered [3940001] type changed to SupplyDepotLowered
+08.17	 Player 1 - frank (Protoss) - Unit born Probe [50C0015]
+08.17	 Player 1 - frank (Protoss) - Unit born Probe [5040005]
+08.18	 Player 1 - frank (Protoss) - Unit born ObserverSiegeMode [4EC0005]
+08.18	 Player 2 - NITRØ (Terran) - Unit BattleHellion [4540001] type changed to HellionTank
+08.19	 Player 2 - NITRØ (Terran) - Unit died BattleHellion [4540001].
+08.20	 Player 1 - frank (Protoss) - Stats Update
+08.20	 Player 2 - NITRØ (Terran) - Stats Update
+08.22	 Player 2 - NITRØ (Terran) - Unit died SupplyDepot [5140001].
+08.23	 Player 1 - frank (Protoss) - Unit died Stalker [5080001].
+08.23	 Player 2 - NITRØ (Terran) - Unit died BattleHellion [4BC0001].
+08.24	 Player 2 - NITRØ (Terran) - Unit SiegeTankSieged [400000D] type changed to SiegeTankSieged
+08.30	 Player 1 - frank (Protoss) - Stats Update
+08.30	 Player 2 - NITRØ (Terran) - Stats Update
+08.30	 Unit positions update
+08.31	 Player 2 - NITRØ (Terran) - Unit born Marine [5140004]
+08.31	 Player 2 - NITRØ (Terran) - Unit OrbitalCommand [3E80001] type changed to OrbitalCommandFlying
+08.34	 Player 2 - NITRØ (Terran) - Unit SiegeTankSieged [400000D] type changed to SiegeTank
+08.36	 Player 1 - frank (Protoss) - Unit Nexus [5240001] done
+08.36	 Player 1 - frank (Protoss) - SprayProtoss upgrade completed
+08.38	 Player 2 - NITRØ (Terran) - Unit born MULE [4A0000F]
+08.40	 Player 1 - frank (Protoss) - Stats Update
+08.40	 Player 2 - NITRØ (Terran) - Stats Update
+08.40	 Player 1 - frank (Protoss) - Unit initiated WarpGate [3A40018]
+08.43	 Player 2 - NITRØ (Terran) - Unit SiegeTankSieged [400000D] type changed to SiegeTankSieged
+08.43	 Player 1 - frank (Protoss) - Unit initiated WarpGate [4BC0003]
+08.45	 Player 1 - frank (Protoss) - Unit born Probe [4540007]
+08.45	 Player 1 - frank (Protoss) - Unit born Probe [4CC0020]
+08.46	 Player 1 - frank (Protoss) - Unit initiated WarpGate [5080002]
+08.48	            None - Unit died PurifierMineralField750 [180001].
+08.49	 Player 2 - NITRØ (Terran) - Unit initiated Barracks [180002]
+08.50	 Player 1 - frank (Protoss) - Stats Update
+08.50	 Player 2 - NITRØ (Terran) - Stats Update
+08.50	 Player 2 - NITRØ (Terran) - Unit initiated Barracks [5280005]
+08.52	 Player 2 - NITRØ (Terran) - Unit initiated MissileTurret [52C0007]
+08.53	 Player 2 - NITRØ (Terran) - Unit born LiberatorAG [530000D]
+08.54	 Player 2 - NITRØ (Terran) - Unit initiated MissileTurret [5340007]
+08.54	 Player 2 - NITRØ (Terran) - Unit born SCV [5380003]
+08.55	 Player 1 - frank (Protoss) - Unit Forge [4E80016] done
+08.56	 Player 2 - NITRØ (Terran) - Unit born Marine [53C0002]
+08.57	 Player 1 - frank (Protoss) - Unit Forge [4F40016] done
+08.58	 Player 2 - NITRØ (Terran) - Unit LiberatorAG [530000D] type changed to LiberatorAG
+08.58	 Player 2 - NITRØ (Terran) - Unit OrbitalCommand [3E80001] type changed to OrbitalCommand
+08.58	 Player 2 - NITRØ (Terran) - Unit born MULE [5400001]
+08.59	 Player 2 - NITRØ (Terran) - Unit born MULE [5440001]
+08.59	 Player 1 - frank (Protoss) - Unit born Probe [5480001]
+09.00	 Player 1 - frank (Protoss) - Stats Update
+09.00	 Player 2 - NITRØ (Terran) - Stats Update
+09.02	 Player 2 - NITRØ (Terran) - Unit initiated Refinery [54C0001]
+09.02	 Player 1 - frank (Protoss) - Unit born Probe [5500001]
+09.02	 Player 1 - frank (Protoss) - Unit born Probe [5540001]
+09.06	 Player 1 - frank (Protoss) - Unit initiated Pylon [5580001]
+09.06	 Player 2 - NITRØ (Terran) - Unit initiated Refinery [55C0001]
+09.09	 Player 1 - frank (Protoss) - Unit initiated Pylon [5600001]
+09.10	 Player 1 - frank (Protoss) - Stats Update
+09.10	 Player 2 - NITRØ (Terran) - Stats Update
+09.11	 Player 2 - NITRØ (Terran) - Unit born SiegeTank [5640001]
+09.11	 Player 1 - frank (Protoss) - Unit initiated Pylon [5680001]
+09.11	 Player 1 - frank (Protoss) - Unit initiated Assimilator [56C0001]
+09.15	 Player 2 - NITRØ (Terran) - Unit born SCV [5700001]
+09.15	 Player 2 - NITRØ (Terran) - Unit born SCV [5740001]
+09.16	 Player 2 - NITRØ (Terran) - Unit born MULE [5780001]
+09.17	 Player 2 - NITRØ (Terran) - Unit MissileTurret [52C0007] done
+09.19	 Player 2 - NITRØ (Terran) - Unit MissileTurret [5340007] done
+09.20	 Player 1 - frank (Protoss) - Stats Update
+09.20	 Player 2 - NITRØ (Terran) - Stats Update
+09.20	 Player 1 - frank (Protoss) - Unit born Immortal [57C0001]
+09.21	 Player 2 - NITRØ (Terran) - Unit born Marine [5800001]
+09.22	 Player 2 - NITRØ (Terran) - Unit SiegeTank [5640001] type changed to SiegeTankSieged
+09.30	 Player 1 - frank (Protoss) - Stats Update
+09.30	 Player 2 - NITRØ (Terran) - Stats Update
+09.30	 Player 1 - frank (Protoss) - Unit born Probe [5840001]
+09.30	 Player 1 - frank (Protoss) - Unit born Probe [5880001]
+09.30	 Player 1 - frank (Protoss) - Unit born Probe [58C0001]
+09.31	 Player 1 - frank (Protoss) - Unit Pylon [5580001] done
+09.32	 Player 2 - NITRØ (Terran) - Unit Refinery [54C0001] done
+09.32	 Player 2 - NITRØ (Terran) - Unit born SCV [5900001]
+09.34	 Player 1 - frank (Protoss) - Unit Pylon [5600001] done
+09.34	 Player 2 - NITRØ (Terran) - TerranInfantryWeaponsLevel1 upgrade completed
+09.36	 Player 1 - frank (Protoss) - Unit Pylon [5680001] done
+09.36	 Player 2 - NITRØ (Terran) - Unit Refinery [55C0001] done
+09.40	 Player 1 - frank (Protoss) - Stats Update
+09.40	 Player 2 - NITRØ (Terran) - Stats Update
+09.41	 Player 1 - frank (Protoss) - Unit Assimilator [56C0001] done
+09.43	 Player 2 - NITRØ (Terran) - Unit initiated SupplyDepot [5940001]
+09.45	 Player 1 - frank (Protoss) - Unit WarpGate [3A40018] done
+09.46	 Player 2 - NITRØ (Terran) - Unit born SCV [5980001]
+09.47	 Player 1 - frank (Protoss) - Unit born Probe [59C0001]
+09.47	 Player 1 - frank (Protoss) - Unit born Probe [5A00001]
+09.48	 Player 1 - frank (Protoss) - Unit WarpGate [4BC0003] done
+09.48	 Player 1 - frank (Protoss) - Unit born Probe [5A40001]
+09.50	 Player 1 - frank (Protoss) - Stats Update
+09.50	 Player 2 - NITRØ (Terran) - Stats Update
+09.51	 Player 2 - NITRØ (Terran) - Unit SiegeTankSieged [400000D] type changed to SiegeTank
+09.51	 Player 1 - frank (Protoss) - Unit WarpGate [5080002] done
+09.52	 Player 2 - NITRØ (Terran) - Unit LiberatorAG [530000D] type changed to Liberator
+09.53	 Player 1 - frank (Protoss) - Unit ObserverSiegeMode [48C000A] type changed to ObserverSiegeMode
+09.54	 Player 2 - NITRØ (Terran) - Unit Barracks [180002] done
+09.54	 Player 1 - frank (Protoss) - Unit initiated Pylon [5A80001]
+09.55	 Player 2 - NITRØ (Terran) - Unit born SCV [5AC0001]
+09.55	 Player 1 - frank (Protoss) - Unit WarpGate [3A40018] type changed to WarpGate
+09.55	 Player 2 - NITRØ (Terran) - Unit Barracks [5280005] done
+09.57	 Player 2 - NITRØ (Terran) - Unit born SiegeTankSieged [5B00001]
+09.58	 Player 2 - NITRØ (Terran) - Unit SiegeTankSieged [400000D] type changed to SiegeTankSieged
+09.58	 Player 1 - frank (Protoss) - Unit WarpGate [4BC0003] type changed to WarpGate
+10.00	 Player 1 - frank (Protoss) - Stats Update
+10.00	 Player 2 - NITRØ (Terran) - Stats Update
+10.02	 Player 1 - frank (Protoss) - Unit WarpGate [5080002] type changed to WarpGate
+10.02	 Player 2 - NITRØ (Terran) - Unit initiated BarracksReactor [5B40001]
+10.03	 Player 2 - NITRØ (Terran) - Unit initiated BarracksReactor [5B80001]
+10.04	 Player 1 - frank (Protoss) - Unit born Immortal [5BC0001]
+10.10	 Player 1 - frank (Protoss) - Stats Update
+10.10	 Player 2 - NITRØ (Terran) - Stats Update
+10.10	 Player 2 - NITRØ (Terran) - Unit initiated MissileTurret [5C00001]
+10.10	 Player 2 - NITRØ (Terran) - Unit born Marine [5C40001]
+10.11	 Player 1 - frank (Protoss) - Unit born Probe [5C80001]
+10.11	 Player 1 - frank (Protoss) - Unit born Probe [5CC0001]
+10.11	 Player 1 - frank (Protoss) - Unit born Probe [5D00001]
+10.12	 Player 2 - NITRØ (Terran) - Unit died MULE [4A0000F].
+10.13	 Player 2 - NITRØ (Terran) - Unit SiegeTankSieged [5B00001] type changed to SiegeTankSieged
+10.13	 Player 2 - NITRØ (Terran) - Unit SupplyDepot [5940001] done
+10.19	 Player 1 - frank (Protoss) - Unit Pylon [5A80001] done
+10.20	 Player 1 - frank (Protoss) - Stats Update
+10.20	 Player 2 - NITRØ (Terran) - Stats Update
+10.21	 Player 2 - NITRØ (Terran) - Unit born SCV [4A00010]
+10.21	 Player 2 - NITRØ (Terran) - Unit born MULE [5D40001]
+10.23	 Player 1 - frank (Protoss) - Unit initiated WarpGate [5D80001]
+10.24	 Player 2 - NITRØ (Terran) - Unit initiated OrbitalCommand [5DC0001]
+10.24	 Player 2 - NITRØ (Terran) - SprayTerran upgrade completed
+10.26	 Player 1 - frank (Protoss) - Unit initiated WarpGate [5E00001]
+10.28	 Player 1 - frank (Protoss) - Unit born Probe [5E40001]
+10.28	 Player 1 - frank (Protoss) - Unit born Probe [5E80001]
+10.28	 Player 1 - frank (Protoss) - Unit born Probe [5EC0001]
+10.30	 Player 1 - frank (Protoss) - Stats Update
+10.30	 Player 2 - NITRØ (Terran) - Stats Update
+10.30	 Player 2 - NITRØ (Terran) - Unit born SCV [5F00001]
+10.30	 Player 1 - frank (Protoss) - Unit initiated WarpGate [5F40001]
+10.30	 Player 2 - NITRØ (Terran) - Unit born Medivac [5F80001]
+10.33	 Player 1 - frank (Protoss) - Unit initiated Assimilator [5FC0001]
+10.33	 Player 2 - NITRØ (Terran) - Unit died MULE [5400001].
+10.33	 Player 2 - NITRØ (Terran) - Unit died MULE [5440001].
+10.33	 Player 1 - frank (Protoss) - Unit initiated WarpGate [5440002]
+10.33	 Player 1 - frank (Protoss) - Unit initiated Assimilator [5400002]
+10.34	 Player 1 - frank (Protoss) - Unit initiated Zealot [6000001]
+10.34	 Player 1 - frank (Protoss) - Unit initiated Zealot [6040001]
+10.35	 Player 1 - frank (Protoss) - Unit initiated Zealot [6080001]
+10.35	 Player 1 - frank (Protoss) - Unit initiated Zealot [60C0001]
+10.35	 Player 2 - NITRØ (Terran) - Unit MissileTurret [5C00001] done
+10.35	 Player 1 - frank (Protoss) - Unit initiated Sentry [6100001]
+10.36	 Player 1 - frank (Protoss) - Unit initiated Sentry [61C0001]
+10.36	 Player 1 - frank (Protoss) - Unit died ObserverSiegeMode [48C000A].
+10.38	 Player 1 - frank (Protoss) - Unit initiated TemplarArchive [48C000B]
+10.38	 Player 2 - NITRØ (Terran) - Unit born Marine [6180002]
+10.38	 Player 2 - NITRØ (Terran) - Unit born SCV [6140002]
+10.39	 Player 1 - frank (Protoss) - Unit born Probe [6200002]
+10.39	 Player 1 - frank (Protoss) - Unit Zealot [6000001] done
+10.39	 Player 1 - frank (Protoss) - Unit Zealot [6040001] done
+10.40	 Player 1 - frank (Protoss) - Stats Update
+10.40	 Player 2 - NITRØ (Terran) - Stats Update
+10.40	 Player 1 - frank (Protoss) - Unit Zealot [6080001] done
+10.40	 Player 1 - frank (Protoss) - Unit Zealot [60C0001] done
+10.40	 Player 1 - frank (Protoss) - Unit born Probe [6240002]
+10.40	 Player 1 - frank (Protoss) - Unit Sentry [6100001] done
+10.41	 Player 1 - frank (Protoss) - Unit Sentry [61C0001] done
+10.42	 Player 2 - NITRØ (Terran) - Unit born SiegeTankSieged [6280001]
+10.45	 Unit positions update
+10.45	 Player 1 - frank (Protoss) - Unit born Probe [62C0001]
+10.50	 Player 1 - frank (Protoss) - Stats Update
+10.50	 Player 2 - NITRØ (Terran) - Stats Update
+10.50	 Player 2 - NITRØ (Terran) - Unit died MULE [5780001].
+10.52	 Player 2 - NITRØ (Terran) - Unit BarracksReactor [5B40001] done
+10.52	 Player 2 - NITRØ (Terran) - Unit initiated SupplyDepotLowered [5780002]
+10.53	 Player 2 - NITRØ (Terran) - Unit BarracksReactor [5B80001] done
+10.56	 Player 1 - frank (Protoss) - Unit born Probe [6300001]
+10.57	 Player 1 - frank (Protoss) - Unit born Immortal [6340001]
+11.00	 Player 1 - frank (Protoss) - Stats Update
+11.00	 Player 2 - NITRØ (Terran) - Stats Update
+11.00	 Unit positions update
+11.02	 Player 2 - NITRØ (Terran) - Unit SiegeTankSieged [6280001] type changed to SiegeTankSieged
+11.03	 Player 1 - frank (Protoss) - Unit Assimilator [5FC0001] done
+11.03	 Player 1 - frank (Protoss) - Unit Assimilator [5400002] done
+11.05	            None - Unit died PurifierMineralField750 [2380001].
+11.06	 Player 2 - NITRØ (Terran) - Unit LiberatorAG [530000D] type changed to LiberatorAG
+11.08	 Player 2 - NITRØ (Terran) - Unit born SCV [2380002]
+11.10	 Player 1 - frank (Protoss) - Stats Update
+11.10	 Player 2 - NITRØ (Terran) - Stats Update
+11.10	 Player 2 - NITRØ (Terran) - Unit SiegeTankSieged [400000D] type changed to SiegeTank
+11.10	 Player 2 - NITRØ (Terran) - Unit SiegeTankSieged [5B00001] type changed to SiegeTank
+11.10	 Player 2 - NITRØ (Terran) - Unit SiegeTank [5640001] type changed to SiegeTank
+11.15	 Unit positions update
+11.16	            None - Unit died PurifierMineralField750 [2100001].
+11.17	 Player 1 - frank (Protoss) - Unit initiated Pylon [2100002]
+11.20	 Player 1 - frank (Protoss) - Stats Update
+11.20	 Player 2 - NITRØ (Terran) - Stats Update
+11.21	 Player 1 - frank (Protoss) - Unit initiated Pylon [6380003]
+11.21	 Player 1 - frank (Protoss) - Unit initiated Pylon [63C0001]
+11.22	 Player 2 - NITRØ (Terran) - Unit SupplyDepotLowered [5780002] done
+11.24	 Player 1 - frank (Protoss) - Unit initiated Pylon [6400001]
+11.25	 Player 1 - frank (Protoss) - ProtossGroundArmorsLevel1 upgrade completed
+11.27	 Player 1 - frank (Protoss) - Unit ObserverSiegeMode [4EC0005] type changed to ObserverSiegeMode
+11.27	 Player 1 - frank (Protoss) - Unit initiated Pylon [6440001]
+11.28	 Player 1 - frank (Protoss) - Unit TemplarArchive [48C000B] done
+11.28	 Player 1 - frank (Protoss) - Unit WarpGate [5D80001] done
+11.28	 Player 2 - NITRØ (Terran) - Unit initiated SensorTower [6480001]
+11.29	 Player 2 - NITRØ (Terran) - Unit SiegeTankSieged [5B00001] type changed to SiegeTankSieged
+11.29	 Player 2 - NITRØ (Terran) - Unit SiegeTank [5640001] type changed to SiegeTankSieged
+11.29	 Player 2 - NITRØ (Terran) - Unit SiegeTankSieged [400000D] type changed to SiegeTankSieged
+11.30	 Player 1 - frank (Protoss) - Stats Update
+11.30	 Player 2 - NITRØ (Terran) - Stats Update
+11.31	 Player 1 - frank (Protoss) - Unit WarpGate [5E00001] done
+11.32	 Player 2 - NITRØ (Terran) - Unit LiberatorAG [530000D] type changed to Liberator
+11.32	 Player 2 - NITRØ (Terran) - Unit born Marine [64C0001]
+11.33	 Player 2 - NITRØ (Terran) - Unit born Marine [6500001]
+11.33	 Player 2 - NITRØ (Terran) - Unit born Marine [6540001]
+11.33	 Player 2 - NITRØ (Terran) - Unit born Marine [6580001]
+11.35	 Player 1 - frank (Protoss) - Unit WarpGate [5F40001] done
+11.36	 Player 2 - NITRØ (Terran) - Unit initiated SupplyDepot [65C0001]
+11.37	 Player 1 - frank (Protoss) - ProtossGroundWeaponsLevel1 upgrade completed
+11.37	            None - Unit died PurifierMineralField750 [1080001].
+11.38	 Player 2 - NITRØ (Terran) - Unit LiberatorAG [530000D] type changed to LiberatorAG
+11.38	 Player 1 - frank (Protoss) - Unit WarpGate [5440002] done
+11.38	 Player 1 - frank (Protoss) - Unit WarpGate [5D80001] type changed to WarpGate
+11.40	 Player 1 - frank (Protoss) - Stats Update
+11.40	 Player 2 - NITRØ (Terran) - Stats Update
+11.41	 Player 1 - frank (Protoss) - Unit WarpGate [5E00001] type changed to WarpGate
+11.42	 Player 1 - frank (Protoss) - Unit Pylon [2100002] done
+11.43	 Player 1 - frank (Protoss) - Unit initiated Zealot [1080002]
+11.43	 Player 1 - frank (Protoss) - Unit initiated Zealot [6600001]
+11.43	 Player 1 - frank (Protoss) - Unit initiated Zealot [6640001]
+11.43	 Player 1 - frank (Protoss) - Unit initiated Zealot [6680001]
+11.44	 Player 1 - frank (Protoss) - Unit initiated Zealot [66C0001]
+11.45	 Player 1 - frank (Protoss) - Unit WarpGate [5F40001] type changed to WarpGate
+11.46	 Player 1 - frank (Protoss) - Unit Pylon [6380003] done
+11.46	 Player 1 - frank (Protoss) - Unit Pylon [63C0001] done
+11.48	 Player 2 - NITRØ (Terran) - Unit born Marine [6700001]
+11.48	 Player 1 - frank (Protoss) - Unit Zealot [1080002] done
+11.48	 Player 1 - frank (Protoss) - Unit Zealot [6600001] done
+11.48	 Player 1 - frank (Protoss) - Unit WarpGate [5440002] type changed to WarpGate
+11.48	 Player 1 - frank (Protoss) - Unit Zealot [6640001] done
+11.49	 Player 1 - frank (Protoss) - Unit Zealot [6680001] done
+11.49	 Player 1 - frank (Protoss) - Unit Zealot [66C0001] done
+11.49	 Player 1 - frank (Protoss) - Unit Pylon [6400001] done
+11.50	 Player 1 - frank (Protoss) - Stats Update
+11.50	 Player 2 - NITRØ (Terran) - Stats Update
+11.52	 Player 1 - frank (Protoss) - Unit initiated Nexus [6740001]
+11.52	 Player 1 - frank (Protoss) - SprayProtoss upgrade completed
+11.52	 Player 1 - frank (Protoss) - Unit Pylon [6440001] done
+11.53	 Player 2 - NITRØ (Terran) - Unit SensorTower [6480001] done
+11.54	 Player 1 - frank (Protoss) - Unit born Immortal [6780001]
+11.55	 Player 2 - NITRØ (Terran) - Unit died MULE [5D40001].
+11.56	 Player 2 - NITRØ (Terran) - Unit initiated MissileTurret [5D40002]
+11.57	 Player 2 - NITRØ (Terran) - Unit born Marine [67C0001]
+12.00	 Player 1 - frank (Protoss) - Stats Update
+12.00	 Player 2 - NITRØ (Terran) - Stats Update
+12.01	 Player 2 - NITRØ (Terran) - Unit born Marine [6800001]
+12.01	 Player 2 - NITRØ (Terran) - Unit born Marine [6840001]
+12.02	 Player 2 - NITRØ (Terran) - Unit born Marine [6880001]
+12.04	 Player 2 - NITRØ (Terran) - Unit OrbitalCommand [5DC0001] done
+12.04	 Player 2 - NITRØ (Terran) - SprayTerran upgrade completed
+12.06	 Player 2 - NITRØ (Terran) - Unit SupplyDepot [65C0001] done
+12.07	 Player 1 - frank (Protoss) - Unit initiated HighTemplar [68C0001]
+12.07	 Player 1 - frank (Protoss) - Unit initiated HighTemplar [6900001]
+12.08	 Player 2 - NITRØ (Terran) - Unit born SiegeTank [6940001]
+12.08	 Player 1 - frank (Protoss) - Unit initiated HighTemplar [6980001]
+12.09	 Player 1 - frank (Protoss) - Unit initiated HighTemplar [69C0001]
+12.10	 Player 1 - frank (Protoss) - Stats Update
+12.10	 Player 2 - NITRØ (Terran) - Stats Update
+12.12	 Player 1 - frank (Protoss) - Unit HighTemplar [68C0001] done
+12.12	 Player 1 - frank (Protoss) - Unit HighTemplar [6900001] done
+12.13	 Player 1 - frank (Protoss) - Unit initiated Archon [6A00001]
+12.13	 Player 2 - NITRØ (Terran) - Unit born Marine [6A40001]
+12.13	 Player 1 - frank (Protoss) - Unit HighTemplar [6980001] done
+12.14	 Player 1 - frank (Protoss) - Unit HighTemplar [69C0001] done
+12.15	 Player 1 - frank (Protoss) - Unit initiated Archon [6A80001]
+12.15	            None - Unit died PurifierMineralField750 [780001].
+12.15	 Player 2 - NITRØ (Terran) - Unit OrbitalCommand [5DC0001] type changed to CommandCenterFlying
+12.19	 Player 2 - NITRØ (Terran) - Unit initiated Refinery [780002]
+12.19	 Player 2 - NITRØ (Terran) - Unit initiated SensorTower [6AC0001]
+12.20	 Player 1 - frank (Protoss) - Stats Update
+12.20	 Player 2 - NITRØ (Terran) - Stats Update
+12.21	 Player 2 - NITRØ (Terran) - Unit MissileTurret [5D40002] done
+12.25	 Player 2 - NITRØ (Terran) - Unit SiegeTank [6940001] type changed to SiegeTankSieged
+12.25	 Player 1 - frank (Protoss) - Unit Archon [6A00001] done
+12.25	 Player 1 - frank (Protoss) - Unit died HighTemplar [6900001].
+12.25	 Player 1 - frank (Protoss) - Unit died HighTemplar [68C0001].
+12.27	 Player 1 - frank (Protoss) - Unit Archon [6A80001] done
+12.27	 Player 1 - frank (Protoss) - Unit died HighTemplar [69C0001].
+12.27	 Player 1 - frank (Protoss) - Unit died HighTemplar [6980001].
+12.27	 Player 2 - NITRØ (Terran) - Unit born MULE [69C0002]
+12.29	 Player 1 - frank (Protoss) - Unit initiated Zealot [6980002]
+12.29	 Player 1 - frank (Protoss) - Unit initiated Zealot [6900002]
+12.29	 Player 1 - frank (Protoss) - Unit initiated Zealot [68C0002]
+12.29	 Player 1 - frank (Protoss) - Unit initiated Zealot [6B00001]
+12.29	 Player 1 - frank (Protoss) - Unit initiated Zealot [6B40001]
+12.29	 Player 1 - frank (Protoss) - Unit initiated Zealot [6B80001]
+12.30	 Player 1 - frank (Protoss) - Stats Update
+12.30	 Player 2 - NITRØ (Terran) - Stats Update
+12.34	 Player 1 - frank (Protoss) - Unit Zealot [6B00001] done
+12.34	 Player 1 - frank (Protoss) - Unit Zealot [68C0002] done
+12.34	 Player 1 - frank (Protoss) - Unit Zealot [6B40001] done
+12.34	 Player 2 - NITRØ (Terran) - Unit born Marine [6BC0001]
+12.34	 Player 1 - frank (Protoss) - Unit Zealot [6B80001] done
+12.34	 Player 2 - NITRØ (Terran) - Unit born Marine [6C00001]
+12.37	 Player 1 - frank (Protoss) - Unit initiated Pylon [6C40001]
+12.38	 Player 2 - NITRØ (Terran) - Unit initiated Refinery [6C80001]
+12.39	 Player 1 - frank (Protoss) - Unit initiated Pylon [6CC0001]
+12.40	 Player 1 - frank (Protoss) - Stats Update
+12.40	 Player 2 - NITRØ (Terran) - Stats Update
+12.43	 Player 1 - frank (Protoss) - Unit born Immortal [6D00001]
+12.44	 Player 1 - frank (Protoss) - Unit initiated Pylon [6D40001]
+12.44	 Player 2 - NITRØ (Terran) - Unit OrbitalCommand [5DC0001] type changed to CommandCenter
+12.44	 Player 2 - NITRØ (Terran) - Unit SensorTower [6AC0001] done
+12.45	 Player 1 - frank (Protoss) - Unit Zealot [6980002] done
+12.45	 Player 1 - frank (Protoss) - Unit Zealot [6900002] done
+12.46	 Player 2 - NITRØ (Terran) - Unit born SCV [6D80001]
+12.47	 Player 1 - frank (Protoss) - Unit initiated Pylon [6DC0001]
+12.48	 Player 2 - NITRØ (Terran) - Unit born LiberatorAG [6E00001]
+12.49	 Player 2 - NITRØ (Terran) - Unit Refinery [780002] done
+12.50	 Player 1 - frank (Protoss) - Stats Update
+12.50	 Player 2 - NITRØ (Terran) - Stats Update
+12.52	 Player 2 - NITRØ (Terran) - Unit SupplyDepotLowered [51C0001] type changed to SupplyDepotLowered
+12.52	 Player 2 - NITRØ (Terran) - Unit born SiegeTankSieged [6E40001]
+12.57	 Player 2 - NITRØ (Terran) - Unit SupplyDepotLowered [5780002] type changed to SupplyDepotLowered
+12.58	 Player 2 - NITRØ (Terran) - Unit LiberatorAG [530000D] type changed to Liberator
+13.00	 Player 1 - frank (Protoss) - Stats Update
+13.00	 Player 2 - NITRØ (Terran) - Stats Update
+13.02	 Player 1 - frank (Protoss) - Unit Pylon [6C40001] done
+13.04	 Player 2 - NITRØ (Terran) - Unit born SCV [6E80001]
+13.04	 Player 1 - frank (Protoss) - Unit Pylon [6CC0001] done
+13.04	 Player 2 - NITRØ (Terran) - Unit born SCV [6EC0001]
+13.04	 Player 2 - NITRØ (Terran) - TerranInfantryArmorsLevel1 upgrade completed
+13.04	 Player 1 - frank (Protoss) - Unit initiated RoboticsBay [6F00001]
+13.07	 Player 2 - NITRØ (Terran) - Unit born Medivac [6F40001]
+13.08	 Player 2 - NITRØ (Terran) - Unit Refinery [6C80001] done
+13.09	 Player 1 - frank (Protoss) - Unit Pylon [6D40001] done
+13.10	 Player 1 - frank (Protoss) - Stats Update
+13.10	 Player 2 - NITRØ (Terran) - Stats Update
+13.10	 Player 1 - frank (Protoss) - Unit initiated RoboticsFacility [6F80001]
+13.10	 Player 2 - NITRØ (Terran) - Unit initiated SupplyDepot [6FC0001]
+13.10	 Player 1 - frank (Protoss) - Unit initiated Zealot [7000001]
+13.10	 Player 2 - NITRØ (Terran) - Unit initiated SupplyDepot [7040001]
+13.10	 Player 1 - frank (Protoss) - Unit initiated Zealot [7080001]
+13.10	 Player 1 - frank (Protoss) - Unit initiated Zealot [70C0001]
+13.10	 Player 1 - frank (Protoss) - Unit initiated Zealot [7100001]
+13.12	 Player 1 - frank (Protoss) - Unit Pylon [6DC0001] done
+13.15	 Player 2 - NITRØ (Terran) - Unit LiberatorAG [530000D] type changed to LiberatorAG
+13.15	 Player 2 - NITRØ (Terran) - Unit LiberatorAG [6E00001] type changed to LiberatorAG
+13.15	 Player 1 - frank (Protoss) - Unit Zealot [7000001] done
+13.15	 Player 1 - frank (Protoss) - Unit Zealot [7080001] done
+13.15	 Player 1 - frank (Protoss) - Unit Zealot [70C0001] done
+13.16	 Player 1 - frank (Protoss) - Unit Zealot [7100001] done
+13.17	 Player 2 - NITRØ (Terran) - Unit died Marine [5800001].
+13.19	 Player 2 - NITRØ (Terran) - Unit OrbitalCommand [5DC0001] type changed to OrbitalCommand
+13.19	 Player 2 - NITRØ (Terran) - Unit SiegeTankSieged [6E40001] type changed to SiegeTankSieged
+13.19	 Player 2 - NITRØ (Terran) - Unit born Marine [5800002]
+13.20	 Player 1 - frank (Protoss) - Stats Update
+13.20	 Player 2 - NITRØ (Terran) - Stats Update
+13.20	 Player 2 - NITRØ (Terran) - Unit born Marine [7140003]
+13.20	 Player 2 - NITRØ (Terran) - Unit born Marine [7180003]
+13.24	 Player 1 - frank (Protoss) - Unit initiated Zealot [71C0002]
+13.25	 Player 1 - frank (Protoss) - Unit initiated Zealot [7200001]
+13.25	 Player 1 - frank (Protoss) - Unit initiated Zealot [7240001]
+13.25	 Player 1 - frank (Protoss) - Unit initiated Zealot [7280001]
+13.27	 Player 2 - NITRØ (Terran) - Unit LiberatorAG [530000D] type changed to Liberator
+13.27	 Player 2 - NITRØ (Terran) - Unit LiberatorAG [6E00001] type changed to Liberator
+13.29	 Player 2 - NITRØ (Terran) - Unit SiegeTankSieged [6280001] type changed to SiegeTank
+13.29	 Player 2 - NITRØ (Terran) - Unit SiegeTank [6940001] type changed to SiegeTank
+13.29	 Player 1 - frank (Protoss) - Unit Zealot [71C0002] done
+13.29	 Player 1 - frank (Protoss) - Unit born WarpPrism [72C0001]
+13.30	 Player 1 - frank (Protoss) - Stats Update
+13.30	 Player 2 - NITRØ (Terran) - Stats Update
+13.30	 Unit positions update
+13.30	 Player 1 - frank (Protoss) - Unit Zealot [7200001] done
+13.30	 Player 1 - frank (Protoss) - Unit Zealot [7240001] done
+13.30	 Player 2 - NITRØ (Terran) - Unit SiegeTank [5640001] type changed to SiegeTank
+13.30	 Player 1 - frank (Protoss) - Unit Zealot [7280001] done
+13.30	 Player 2 - NITRØ (Terran) - Unit SiegeTankSieged [400000D] type changed to SiegeTank
+13.30	 Player 2 - NITRØ (Terran) - Unit SiegeTankSieged [5B00001] type changed to SiegeTank
+13.32	 Player 1 - frank (Protoss) - Unit Nexus [6740001] done
+13.32	 Player 1 - frank (Protoss) - SprayProtoss upgrade completed
+13.33	            None - Unit died PurifierMineralField750 [2700001].
+13.40	 Player 1 - frank (Protoss) - Stats Update
+13.40	 Player 2 - NITRØ (Terran) - Stats Update
+13.40	 Player 2 - NITRØ (Terran) - Unit SupplyDepot [6FC0001] done
+13.40	 Player 2 - NITRØ (Terran) - Unit SupplyDepot [7040001] done
+13.44	 Player 2 - NITRØ (Terran) - Unit SiegeTankSieged [6280001] type changed to SiegeTankSieged
+13.44	 Player 1 - frank (Protoss) - Charge upgrade completed
+13.45	 Unit positions update
+13.48	 Player 2 - NITRØ (Terran) - Unit born SCV [2700002]
+13.50	 Player 1 - frank (Protoss) - Stats Update
+13.50	 Player 2 - NITRØ (Terran) - Stats Update
+13.50	 Player 1 - frank (Protoss) - Unit initiated Stalker [7300001]
+13.50	 Player 1 - frank (Protoss) - Unit initiated Stalker [7340001]
+13.51	 Player 1 - frank (Protoss) - Unit initiated Stalker [7380001]
+13.51	 Player 1 - frank (Protoss) - Unit initiated Stalker [73C0001]
+13.51	 Player 1 - frank (Protoss) - Unit initiated Stalker [7400001]
+13.51	 Player 1 - frank (Protoss) - Unit initiated Stalker [7440001]
+13.52	 Player 2 - NITRØ (Terran) - Unit born Marine [7480001]
+13.53	 Player 2 - NITRØ (Terran) - Unit born Marine [74C0001]
+13.53	 Player 2 - NITRØ (Terran) - Unit born Marine [7500001]
+13.53	 Player 2 - NITRØ (Terran) - Unit born Marine [7540001]
+13.53	 Player 2 - NITRØ (Terran) - Unit born Marine [7580001]
+13.55	 Player 1 - frank (Protoss) - Unit Stalker [7300001] done
+13.56	 Player 1 - frank (Protoss) - Unit Stalker [7400001] done
+13.56	 Player 1 - frank (Protoss) - Unit Stalker [7440001] done
+13.57	 Player 2 - NITRØ (Terran) - Unit born SCV [7600001]
+13.57	 Player 2 - NITRØ (Terran) - Unit LiberatorAG [530000D] type changed to LiberatorAG
+13.58	 Player 2 - NITRØ (Terran) - Unit LiberatorAG [6E00001] type changed to LiberatorAG
+14.00	 Player 1 - frank (Protoss) - Stats Update
+14.00	 Player 2 - NITRØ (Terran) - Stats Update
+14.00	 Unit positions update
+14.01	 Player 2 - NITRØ (Terran) - Unit died MULE [69C0002].
+14.06	 Player 1 - frank (Protoss) - Unit Stalker [7340001] done
+14.06	 Player 2 - NITRØ (Terran) - Unit LiberatorAG [6E00001] type changed to Liberator
+14.06	 Player 2 - NITRØ (Terran) - Unit LiberatorAG [530000D] type changed to Liberator
+14.07	 Player 1 - frank (Protoss) - Unit Stalker [7380001] done
+14.07	 Player 1 - frank (Protoss) - Unit Stalker [73C0001] done
+14.07	 Player 2 - NITRØ (Terran) - Unit born SCV [69C0003]
+14.07	 Player 2 - NITRØ (Terran) - Unit born SCV [75C0003]
+14.09	 Player 1 - frank (Protoss) - Unit RoboticsBay [6F00001] done
+14.09	 Player 2 - NITRØ (Terran) - Unit SiegeTankSieged [5B00001] type changed to SiegeTankSieged
+14.10	 Player 1 - frank (Protoss) - Stats Update
+14.10	 Player 2 - NITRØ (Terran) - Stats Update
+14.10	            None - Unit died PurifierMineralField750 [380001].
+14.10	 Player 1 - frank (Protoss) - Unit died Zealot [6040001].
+14.11	 Player 2 - NITRØ (Terran) - Unit died SiegeTank [5640001].
+14.11	 Player 2 - NITRØ (Terran) - Unit died Marine [64C0001].
+14.11	 Player 2 - NITRØ (Terran) - Unit died Marine [6A40001].
+14.11	 Player 2 - NITRØ (Terran) - Unit died Marine [3800005].
+14.12	 Player 1 - frank (Protoss) - Unit died Zealot [6B00001].
+14.12	 Player 2 - NITRØ (Terran) - Unit died Marine [6C00001].
+14.12	 Player 2 - NITRØ (Terran) - Unit LiberatorAG [6E00001] type changed to LiberatorAG
+14.12	 Player 2 - NITRØ (Terran) - Unit died Marine [6840001].
+14.13	 Player 2 - NITRØ (Terran) - Unit LiberatorAG [530000D] type changed to LiberatorAG
+14.13	 Player 2 - NITRØ (Terran) - Unit died BattleHellion [4500001].
+14.13	 Player 2 - NITRØ (Terran) - Unit died Marine [6500001].
+14.14	 Player 2 - NITRØ (Terran) - Unit died Marine [5140004].
+14.14	 Player 2 - NITRØ (Terran) - Unit died Marine [6BC0001].
+14.14	 Player 2 - NITRØ (Terran) - Unit born SiegeTank [6C00002]
+14.14	 Player 1 - frank (Protoss) - Unit died Zealot [7240001].
+14.14	 Player 2 - NITRØ (Terran) - Unit died Marine [67C0001].
+14.14	 Player 1 - frank (Protoss) - Unit died Zealot [1080002].
+14.14	 Player 2 - NITRØ (Terran) - Unit SiegeTankSieged [400000D] type changed to SiegeTankSieged
+14.14	 Player 2 - NITRØ (Terran) - Unit died Marine [6880001].
+14.14	 Player 2 - NITRØ (Terran) - Unit SiegeTank [6940001] type changed to SiegeTankSieged
+14.14	 Player 2 - NITRØ (Terran) - Unit died Marine [6800001].
+14.14	 Player 2 - NITRØ (Terran) - Unit died Marine [6580001].
+14.15	 Unit positions update
+14.15	 Player 2 - NITRØ (Terran) - Unit died Marine [6180002].
+14.15	 Player 1 - frank (Protoss) - Unit RoboticsFacility [6F80001] done
+14.15	 Player 2 - NITRØ (Terran) - Unit died Marine [6700001].
+14.15	 Player 2 - NITRØ (Terran) - Unit died SiegeTankSieged [400000D].
+14.16	 Player 2 - NITRØ (Terran) - Unit died Marine [518000E].
+14.16	 Player 2 - NITRØ (Terran) - Unit died Marine [5C40001].
+14.16	 Player 2 - NITRØ (Terran) - Unit died Marine [6540001].
+14.16	 Player 2 - NITRØ (Terran) - Unit died Marine [53C0002].
+14.17	 Player 2 - NITRØ (Terran) - Unit died Medivac [4480005].
+14.17	 Player 2 - NITRØ (Terran) - Unit born Marine [6700005]
+14.18	 Player 2 - NITRØ (Terran) - Unit born Marine [53C0003]
+14.18	 Player 2 - NITRØ (Terran) - Stats Update
+14.18	 Player 2 - NITRØ (Terran) - Stats Update
+14.18	 Player 2 - NITRØ (Terran) - Unit SiegeTank [6940001] type changed to SiegeTank
+14.18	 Player 1 - frank (Protoss) - Stats Update
+14.18	 Player 2 - NITRØ (Terran) - Unit died SiegeTankSieged [5B00001].
+14.19	 Player 2 - NITRØ (Terran) - Unit died BattleHellion [4880001].
+14.19	 Player 2 - NITRØ (Terran) - Unit died Medivac [5F80001].
+14.20	 Player 2 - NITRØ (Terran) - Unit died SiegeTank [6940001].
+14.20	 Player 2 - NITRØ (Terran) - Unit died Marine [7140003].
