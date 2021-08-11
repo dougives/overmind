@@ -15,6 +15,7 @@ dotenv.load_dotenv()
 # access to the values within the .ini file in use.
 config = context.config
 
+section = config.config_ini_section
 config.set_section_option(section,
     'DATABASE_CONNECTION_STRING', 
     os.environ['DATABASE_CONNECTION_STRING'])

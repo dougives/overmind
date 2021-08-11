@@ -4,9 +4,11 @@ from sqlalchemy import (
     ForeignKey, Index, MetaData, DateTime,
     Interval, Float, Boolean)
 from sqlalchemy.orm import relationship
+from sqlalchemy.ext.associationproxy import association_proxy
 from sqlalchemy.dialects.postgresql import (
     BYTEA, ARRAY)
 import inspect
+import enum
 
 class Base():
     def to_dict(self):
@@ -26,20 +28,17 @@ class Race(enum.Enum):
     PROTOSS = 'protoss'
     TERRAN = 'terran'
     ZERG = 'zerg'
+    RANDOM = 'random'
 
 class ReplayDataPath(Base):
     __tablename__ = 'replay_data_path'
+    id = Column(Integer, primary_key=True)
     replay_data_path = Column(String)
 
 class Map(Base):
     __tablename__ = 'maps'
-    __table_args__ = {
-        Index('idx_file_hash', 
-            'file_hash', 
-            unique=True, postgresql_using='hash')
-    }
     id = Column(Integer, primary_key=True)
-    file_hash = Column(BYTEA(32), nullable=False, unique=True)
+    file_hash = Column(BYTEA(32), nullable=False, unique=True, index=True)
     map_name = Column(String, nullable=False)
     width = Column(Integer, nullable=False)
     height = Column(Integer, nullable=False)
@@ -49,15 +48,17 @@ class Map(Base):
     camera_bottom = Column(Integer, nullable=False)
     camera_right = Column(Integer, nullable=False)
 
+class BattleNetInfoReplayAssociation(Base):
+    __tablename__ = 'battle_net_info_replay_association'
+    battle_net_info_id = Column(Integer, ForeignKey('battle_net_info.id'), primary_key=True)
+    replay_id = Column(Integer, ForeignKey('replays.id'), primary_key=True)
+    battle_net_info = relationship('BattleNetInfo', back_populates='replays')
+    replay = relationship('Replay', back_populates='battle_net_info_replays')
+
 class Replay(Base):
     __tablename__ = 'replays'
-    __table_args__ = {
-        Index('idx_file_hash', 
-            'file_hash', 
-            unique=True, postgresql_using='hash')
-    }
     id = Column(Integer, primary_key=True)
-    file_hash = Column(BYTEA(32), unique=True)
+    file_hash = Column(BYTEA(32), unique=True, index=True)
     original_path = Column(BYTEA)
     versions = Column(ARRAY(Integer), nullable=False)
     category = Column(String(16), nullable=False)
@@ -74,20 +75,21 @@ class Replay(Base):
     is_private = Column(Boolean, nullable=False)
     speed = Column(String(8), nullable=False)
     region = Column(String(2), nullable=False)
-    winner_id = Column(Integer, ForeignKey('players.id'))
-    winner = relationship('Player', foreign_keys=[ winner_id ])
-    player_1_id = Column(Integer, ForeignKey('players.id'))
-    player_1 = relationship('Player', foreign_keys=[ player_1_id ])
-    player_2_id = Column(Integer, ForeignKey('players.id'))
-    player_2 = relationship('Player', foreign_keys=[ player_2_id ])
+    winner_id = Column(Integer, ForeignKey('battle_net_info.id'))
+    winner = relationship('BattleNetInfo')
+    battle_net_info_replays = relationship('BattleNetInfoReplayAssociation')
+    battle_net_infos = association_proxy(
+        'battle_net_info_replays', 'battle_net_info',
+        creator=lambda x: BattleNetInfoReplayAssociation(
+            battle_net_info=x))
 
 class BattleNetInfo(Base):
     __tablename__ = 'battle_net_info'
-    __table_args__ = {
+    __table_args__ = (
         Index('idx_locator', 
             'profile_id', 'region', 'realm', 
-            unique=True)
-    }
+            unique=True),
+    )
     id = Column(Integer, primary_key=True)
     profile_id = Column(Integer, nullable=False)
     region = Column(Integer, nullable=False)
@@ -106,6 +108,7 @@ class BattleNetInfo(Base):
     join_timestamp = Column(DateTime)
     player_id = Column(Integer, ForeignKey('players.id'))
     player = relationship('Player', back_populates='battle_net_infos')
+    replays = relationship('BattleNetInfoReplayAssociation')
 
 class Team(Base):
     __tablename__ = 'teams'
@@ -122,6 +125,5 @@ class Player(Base):
     nationality = Column(String(2))
     team = relationship('Team', back_populates='players')
     team_id = Column(Integer, ForeignKey('teams.id'))
-    battle_net_infos = relationship('BattleNetInfo')
-    replays = relationship('Replay')
+    battle_net_infos = relationship('BattleNetInfo', back_populates='player')
 

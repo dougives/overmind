@@ -1,12 +1,12 @@
 from sqlalchemy import create_engine
-from sqlalchemy.orm import sessionmaker
+from sqlalchemy.orm import sessionmaker, scoped_session
 import os
 import dotenv
 
 dotenv.load_dotenv()
 
 _engine = create_engine(os.environ['DATABASE_CONNECTION_STRING'])
-Session = sessionmaker(bind=_engine)
-session = _Session()
-
+session_factory = sessionmaker(bind=_engine)
+Session = scoped_session(session_factory)
+pass
 

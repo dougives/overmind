@@ -4,32 +4,44 @@ import string
 import json
 import difflib
 from functools import partial, reduce
-from itertools import product, repeat, chain
-from operator import xor, eq
+from itertools import (
+    product, repeat, chain, combinations,
+    starmap, dropwhile, count, islice)
+from operator import xor, eq, ne, itemgetter, lt
 import time
 from overmind import bnet_api
-from overmind.database import session
+from overmind.database import Session
 from overmind.database.models import (
-    BattleNetInfo, Player, Team)
+    BattleNetInfo, Player, Team, Race,
+    Map, Replay)
 from overmind.database.queries import (
     get_battle_net_info_by_locator,
     get_player_by_pro_name,
-    get_team_by_clan_tag)
+    get_team_by_clan_tag,
+    get_map_by_file_hash,
+    get_replay_by_file_hash,
+    get_replay_data_path)
+from datetime import datetime, timedelta
+import shutil
+from multiprocessing.pool import ThreadPool
 import dotenv
 
 dotenv.load_dotenv()
 
 import sc2reader
 
-SOURCE_PATH = '/media/bulk/sc2/releases/'
+SOURCE_PATH = '/media/bulk/sc2/ggtracker/'
 SC2REPLAY_EXTENTION_GLOB = '*.[Ss][Cc]2[Rr][Ee][Pp][Ll][Aa][Yy]'
 PLAYER_SET_PATH = 'player_set.txt'
 BARCODE_REPORT_PATH = '_barcode_report.json'
 PLAYER_ALIAS_MAP_PATH = 'player_alias_map.json'
 NOT_LABELD_REPORT_PATH = 'not_labeled.txt'
 
-_stopwatch = None
-_session = session
+_replay_data_path_session, _replay_data_path = \
+    get_replay_data_path(None)
+_replay_data_path_session.close()
+_replay_data_path = Path(_replay_data_path)
+
 
 _remove_re = re.compile(
     r'( \([PTZ]\)|_game_\d+)', re.I)
@@ -101,9 +113,9 @@ def parse_players_from_path(path):
         return None
     return tuple(zip(
         players.groups(), 
-        tuple(filter(None, map(
+        tuple(map(
             format_player_name,
-            players.groups())))))
+            players.groups()))))
 
 def process_path(path):
     return parse_players_from_path(path)
@@ -135,6 +147,11 @@ def string_simularity(left, right):
     return difflib.SequenceMatcher(None, left, right).ratio()
 
 def match_replay_player_names(replay, players):
+    if not players:
+        return {
+            (x.name, x.name.lower()): x
+            for x in replay.players
+        }
     order = players, tuple( x.name for x in replay.players )
     ratios = tuple(
         tuple( tuple(map(partial(string_simularity, h), s))
@@ -146,7 +163,11 @@ def match_replay_player_names(replay, players):
         return dict(zip(order[0], replay.players[::1-(int(swap)*2)]))
     def iter_ratios():
         return product((0, 1), repeat=3)
-    # take highest value
+    # take highest value >= 0.6
+    if all(map(partial(lt, 0.6), chain(*chain(*ratios)))):
+        return None
+    if all(starmap(eq, combinations(chain(*chain(*ratios)), 2))):
+        return None
     return order_result(reduce(xor, reduce(
         lambda a, s: s if s[0] > a[0] else a, 
         ( (ratios[i][j][k], i, k) 
@@ -156,63 +177,202 @@ def ladder_stats_to_locator(ladder_stats):
     return (
         ladder_stats['region'],
         ladder_stats['realm'],
-        ladder_stats['id'])
+        ladder_stats['id']) \
+        if ladder_stats else None
 
-def ladder_stats_to_battle_net_info(ladder_stats, pro_name=None):
-    global session
-    locator = ladder_stats_to_locator(ladder_stats)
-    session, bnet_info = get_battle_net_info_by_locator(locator)
+def replay_to_map_info(replay, _session=None):
+    #global _session
+    _session, map_info = get_map_by_file_hash(_session, bytes.fromhex(replay.map_hash))
+    if map_info:
+        return _session, map_info
+    replay.load_map()
+    map_info = Map(
+        file_hash=bytes.fromhex(replay.map.filehash),
+        map_name=replay.map.name,
+        width=replay.map.map_info.width,
+        height=replay.map.map_info.height,
+        tile_set=replay.map.map_info.tile_set,
+        camera_top=replay.map.map_info.camera_top,
+        camera_left=replay.map.map_info.camera_left,
+        camera_bottom=replay.map.map_info.camera_bottom,
+        camera_right=replay.map.map_info.camera_right)
+    _session.add(map_info)
+    return _session, map_info
+
+def replay_to_replay_info(replay, map_info, bnet_infos, path, _session=None):
+    #global _session
+    _session, replay_info = get_replay_by_file_hash(_session, bytes.fromhex(replay.filehash))
+    if replay_info:
+        return _session, replay_info
+    def select_winner():
+        winner_data = replay.winner.players[0].detail_data['bnet']
+        return next(dropwhile(
+            lambda x: x[1] != (
+                winner_data['region'],
+                winner_data['subregion'],
+                winner_data['uid']),
+            ( (bnet_info, (bnet_info.region, bnet_info.realm, bnet_info.profile_id))
+                for bnet_info in bnet_infos )))[0]
+    replay = Replay(
+        file_hash=bytes.fromhex(replay.filehash),
+        original_path=bytes(path),
+        versions=replay.versions,
+        category=replay.category,
+        map=map_info,
+        start_time=replay.start_time + timedelta(hours=replay.time_zone),
+        end_time=replay.end_time + timedelta(hours=replay.time_zone),
+        real_length=timedelta(seconds=replay.real_length.seconds),
+        expansion=replay.expansion,
+        frames=replay.frames,
+        game_fps=replay.game_fps,
+        real_type=replay.real_type,
+        is_ladder=replay.is_ladder,
+        is_private=replay.is_private,
+        speed=replay.speed,
+        region=replay.region,
+        winner=select_winner(),
+        battle_net_infos=bnet_infos)
+    _session.add(replay)
+    return _session, replay
+
+def ladder_stats_to_battle_net_info(
+    display_name, clan_tag, locator, ladder_stats, 
+    pro_name=None, _session=None):
+    #global _session
+    _session, bnet_info = get_battle_net_info_by_locator(_session, *locator)
     if bnet_info:
-        return bnet_info
+        return _session, bnet_info 
     player = None
     if pro_name:
-        session, player = get_player_by_pro_name(pro_name)
-    if not Player:
+        _session, player = get_player_by_pro_name(_session, pro_name)
+    if not player:
         player = Player(pro_name=pro_name)
+        _session.add(player)
     # team should be updated manually/from liquipedia
-    bnet_info = filter(
-        partial(eq, locator[3]), ( 
+    bnet_info = tuple(filter(
+        partial(eq, locator[2]), ( 
             bnetinfo.profile_id 
-            for bnetinfo in player.battle_net_infos ))
+            for bnetinfo in player.battle_net_infos )))
     if bnet_info:
-        return bnet_info
+        return _session, bnet_info[0]
     bnet_info = BattleNetInfo(
-        player=player,
-        **{ camel_to_snake(key) if key != 'id' else 'profile_id': value
+        player=player, **{
+            camel_to_snake(key) 
+                if key != 'id' 
+                else 'profile_id': Race[value.upper()]
+                    if key == 'favoriteRace'
+                    else datetime.fromtimestamp(value)
+                    if key == 'joinTimestamp'
+                    else int(value)
+                    if key == 'id'
+                    else value
             for key, value in ladder_stats.items() })
-    return bnet_info
+    if not bnet_info.display_name:
+        bnet_info.display_name = display_name
+    if not bnet_info.clan_tag:
+        bnet_info.clan_tag = clan_tag
+    _session.add(bnet_info)
+    #session.commit()
+    return _session, bnet_info
         
 
-def player_to_battle_net_locator(replay, player):
+def player_to_locator(replay, player):
     return \
         player.detail_data['bnet']['region'], \
         player.detail_data['bnet']['subregion'], \
         player.detail_data['bnet']['uid']
 
+def clan_tag_from_replay(display_name, replay):
+    return next(dropwhile(
+        partial(ne, display_name),
+        ( player.name for player in replay.players ))) \
+        .name
+
 def import_with_path_label(path, assume_pro=False):
-    global _stopwatch
     _stopwatch = time.time_ns()
+    _session = Session()
     not_labeled = list()
     replay = load_replay(path, load_level=2)
-    replay.load_map()
+    if not replay:
+        _session.close()
+        mark = time.time_ns() - _stopwatch
+        return mark / (10**9), None
     players = parse_players_from_path(path)
-    if not players:
-        not_labeled.append(path)
-        return None
+    #if not players:
+    #    #not_labeled.append(path)
+    #    _session.close()
+    #    mark = time.time_ns() - _stopwatch
+    #    return mark / (10**9), None
     match = match_replay_player_names(replay, players)
+    if not match:
+        _session.close()
+        mark = time.time_ns() - _stopwatch
+        return mark / (10**9), None
+    bnet_infos = tuple(
+        ladder_stats_to_battle_net_info(
+            player.name,
+            player.clan_tag,
+            player_to_locator(replay, player),
+            bnet_api.get_showcased_ladder_stats(
+                *player_to_locator(replay, player)),
+            pro_name,
+            _session=_session)
+        for (_, pro_name), player in match.items() )
+    _session = bnet_infos[-1][0]
+    _session, map_info = replay_to_map_info(replay, _session=_session)
+    _session, replay_info = replay_to_replay_info(
+        replay,
+        map_info,
+        tuple(map(itemgetter(1), bnet_infos)),
+        path,
+        _session=_session)
+
+    copy_path = _replay_data_path / f'{replay.filehash}.SC2Replay'
+    if not copy_path.exists():
+        shutil.copy(path, copy_path)
+    
     mark = time.time_ns() - _stopwatch
-    print(mark / (10**9))
-    ladder_stats = tuple(
-        bnet_api.get_showcased_ladder_stats(
-            *player_to_battle_net_locator(replay, player))
-        for player in match.values() )
-    pass
+    _session.commit()
+    _session.close()
+    #print(f'{next(_counter)}    {mark / (10**9)}    {normalize_text(str(path))}')
+    return mark / (10**9), copy_path
+
+def _import_with_path_label_thread(counter_and_path):
+    counter, path = counter_and_path
+    try:
+        result = (counter, None, path, import_with_path_label(path))
+        return result
+    except KeyboardInterrupt:
+        return counter, KeyboardInterrupt, path, (None, None)
+    #except AssertionError as e:
+    except Exception as e:
+        return counter, e, path, (None, None)
 
 
 def main():
     load_player_alias_map(PLAYER_ALIAS_MAP_PATH)
-    for path in walk_paths(SOURCE_PATH):
-        import_with_path_label(path)
+    paths = list(map(tuple, enumerate(walk_paths(SOURCE_PATH))))
+    with open('not_imported.txt', 'a') as file:
+        results = ThreadPool(32).imap(
+            _import_with_path_label_thread,
+            paths)
+        for counter, exception, path, (marktime, copy_path) in results:
+            if isinstance(exception, KeyboardInterrupt):
+                exit(-1)
+            if copy_path:
+                print(f'{counter}    {marktime}    {normalize_text(str(path))}')
+                continue
+            file.write(f'{normalize_text(str(path))}\n')
+        #for path in paths[3060:3071]:
+        #    try:
+        #        copy_path = import_with_path_label(path)
+        #        if not copy_path:
+        #            file.write(f'{normalize_text(str(path))}\n')
+        #    except KeyboardInterrupt:
+        #        return -1
+        #    except:
+        #        file.write(f'{normalize_text(str(path))}\n')
+
 
     #player_set = set()
     #not_labeled = list()

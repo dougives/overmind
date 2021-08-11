@@ -1,5 +1,4 @@
 import sc2reader
-from sc2reader.events import *
 
 TEST_REPLAY = '/media/bulk/sc2/releases/HomeStory/2020/1/Stay at HSC Replay Pack/Day 2/Group C/Serral vs. Elazer/Zen.SC2Replay'
 
